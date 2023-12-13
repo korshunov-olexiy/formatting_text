@@ -9,7 +9,7 @@
 - Перейдіть в  `module` і запишіть у масив `headersArr` всі назви заголовків, для яких будуть використовуватися функції форматування.
 
 ##### Масив `headersArr` повинен мати таку структуру:
-`HeadersArr.add "Назва заголовка-1":", Array("TextFormatterFunc.Format_ID ", "TextFormatterFunc.HeaderFormat_ID")` де:
+`HeadersArr.add "Назва заголовка-1":", Array("TextFormatterFunc.Format_ID ", "TextFormatterFunc.HeaderFormat_ID")`, де:
 - `"Назва заголовка-1:"`: значення заголовка, згідно з яким пошук буде здійснений у тексті документа. До самого заголовка та тексту всередині цього заголовка застосовуватимуться функції форматування, описані нижче.
 - Функції форматування повинні бути передані у формі масиву `Array("TextFormatterFunc.Format_ID", "TextFormatterFunc.HeaderFormat_ID")`, де:
    - Перший елемент масиву (у цьому випадку функція - `"TextFormatterFunc.Format_ID"`) - це функція, яка використовується для тексту всередині заголовка;
